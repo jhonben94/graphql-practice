@@ -62,31 +62,31 @@ const MovieList = [
     {
         id: 1,
         name: "Interview, The",
-        yearOfPublication: "2021/12/18",
+        yearOfPublication: "2020",
         isInTheaters: false,
     },
     {
         id: 2,
         name: "Predator",
-        yearOfPublication: "2021/12/19",
+        yearOfPublication: "2021",
         isInTheaters: false,
     },
     {
         id: 3,
         name: "Watcher in the Woods, The",
-        yearOfPublication: "2021/04/25",
+        yearOfPublication: "2019",
         isInTheaters: true,
     },
     {
         id: 4,
         name: "Live Wire",
-        yearOfPublication: "2021/11/07",
+        yearOfPublication: "2022",
         isInTheaters: false,
     },
     {
         id: 5,
         name: "Few of Us",
-        yearOfPublication: "2021/09/02",
+        yearOfPublication: "1999",
         isInTheaters: false,
     },
 ]
