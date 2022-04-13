@@ -14,8 +14,14 @@ const resolvers = {
             const name = args.name
             console.log(MovieList.filter((item) => item.name.includes(name)))
             return MovieList.filter((item) => item.name.includes(name))
-        },
+        }, 
     },
+    User:{
+        favoriteMovies: ()=>{
+            return MovieList.filter(item => item.yearOfPublication > 2010)
+        }
+    } 
+   
 }
 
 module.exports = { resolvers }

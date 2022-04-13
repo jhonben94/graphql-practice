@@ -24,6 +24,18 @@ const UserList = [
                 nationality: "PERU",
             },
         ],
+        favoriteMovies:[{
+            id: 1,
+            name: "Interview, The",
+            yearOfPublication: "2001",
+            isInTheaters: false,
+        },
+        {
+            id: 3,
+            name: "Watcher in the Woods, The",
+            yearOfPublication: "2021",
+            isInTheaters: true,
+        }]
     },
     {
         id: 2,
@@ -32,6 +44,8 @@ const UserList = [
         username: "lfarbrace1",
         gender: "Female",
         nationality: "PERU",
+        favoriteMovies:[]
+
     },
     {
         id: 3,
@@ -40,6 +54,8 @@ const UserList = [
         username: "bwindrum2",
         gender: "Male",
         nationality: "PERU",
+        favoriteMovies:[]
+
     },
     {
         id: 4,
@@ -48,6 +64,8 @@ const UserList = [
         username: "sberridge3",
         gender: "Male",
         nationality: "PORTUGAL",
+        favoriteMovies:[]
+
     },
     {
         id: 5,
@@ -56,37 +74,39 @@ const UserList = [
         username: "cwittleton4",
         gender: "Male",
         nationality: "INDONESIA",
+        favoriteMovies:[]
+
     },
 ]
 const MovieList = [
     {
         id: 1,
         name: "Interview, The",
-        yearOfPublication: "2021/12/18",
+        yearOfPublication: "2021",
         isInTheaters: false,
     },
     {
         id: 2,
         name: "Predator",
-        yearOfPublication: "2021/12/19",
+        yearOfPublication: "2001",
         isInTheaters: false,
     },
     {
         id: 3,
         name: "Watcher in the Woods, The",
-        yearOfPublication: "2021/04/25",
+        yearOfPublication: "2021",
         isInTheaters: true,
     },
     {
         id: 4,
         name: "Live Wire",
-        yearOfPublication: "2021/11/07",
+        yearOfPublication: "2021",
         isInTheaters: false,
     },
     {
         id: 5,
         name: "Few of Us",
-        yearOfPublication: "2021/09/02",
+        yearOfPublication: "2021",
         isInTheaters: false,
     },
 ]

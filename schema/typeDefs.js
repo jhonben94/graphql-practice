@@ -8,11 +8,12 @@ const typeDefs = gql`
         gender: String!
         nationality: Nationality!
         friends: [User]
+        favoriteMovies: [Movie]
     }
     type Movie {
         id: ID!
         name: String!
-        yearOfPublication: String!
+        yearOfPublication: Int!
         isInTheaters: Boolean!
     }
 
